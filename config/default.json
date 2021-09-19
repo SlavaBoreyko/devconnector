@@ -1,3 +1,7 @@
 {
-  "mongoURI": "mongodb+srv://Yaro999:nkir85RFGHk356fg@devconnection.7wgr6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://Yaro999:nkir85RFGHk356fg@devconnection.7wgr6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "jwtSecret": "buFRkgjhdRfdfdewTRT",
+  "githubClientId": "e7f7333b4790fb087fa1",
+  "githubSecret": "be4d03ffc73a7c76fb1906ade06e90db73908bf2",
+  "githubToken": "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"
 }
