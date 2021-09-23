@@ -5,6 +5,8 @@ const config = require("config");
 const auth = require("../../middleware/auth");
 const { check, validationResult } = require("express-validator");
 
+const normalize = require("normalize-url");
+
 const Profile = require("../../models/Profile");
 const User = require("../../models/User");
 
@@ -44,13 +46,18 @@ router.post(
 
     // destructure the request
     const {
+      company,
       website,
+      location,
+      status,
       skills,
-      youtube,
+      githubusername,
+      bio,
       twitter,
-      instagram,
-      linkedin,
       facebook,
+      linkedin,
+      youtube,
+      instagram,
       // spread the rest of the fields we don't need to check
       ...rest
     } = req.body;
