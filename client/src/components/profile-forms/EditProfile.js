@@ -103,7 +103,7 @@ const EditProfile = ({
             value={company}
             onChange={(e) => onChange(e)}
           />
-          <small classNameName="form-text">
+          <small className="form-text">
             Could be your own company or one you work for
           </small>
         </div>
